@@ -23,7 +23,7 @@ average_delivery_time = Summary(
 )
 
 def simulate_delivery():
-    pending = random.randint(10, 20)
+    pending = random.randint(50, 100)
     on_the_way = random.randint(5, 20)
     delivered = random.randint(30, 70)
     avg_time = random.uniform(15, 45)
